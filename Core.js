@@ -213,13 +213,8 @@ const mongoose = require("mongoose");
 
 
 
-/////////// -  DM chatbot (Delete this part to turn off DM Chat Bot) - //////////////////
 
-if (!isCmd && !m.isGroup){
-    const botreply = await axios.get(`http://api.brainshop.ai/get?bid=168758&key=Ci7eNhtxpxxDB5FQ&uid=[uid]&msg=[${budy}]`)
-    txt = `${botreply.data.cnt}`
-    m.reply(txt)
-    }
+
 
 //////////////////////////////////////////////////////////////////////////////////////
 
@@ -1330,7 +1325,7 @@ const ftroli = {
 
 
     const menulist = `
-    Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: Fantox to take your WhatsApp usage into next level.
+    Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: ASH UCHIHA to take your WhatsApp usage into next level.
         
        「 System Info 」
     
@@ -1485,10 +1480,7 @@ if (isBanChat) return reply(mess.banChat)
 reply(` Don't forget to join yeah!
 
 *GROUP 1*
-https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS
-
-*GROUP 2*
-https://chat.whatsapp.com/LS1Xx3fSqg7FpSYSjKWhL5
+https://chat.whatsapp.com/I1eAuFDBp6a1568QD0CeCk
 
 *GROUP 3*
 https://chat.whatsapp.com/EcycNbJFCVT5ZsG9xIGkqd`)
@@ -1505,12 +1497,12 @@ break
 
 case 'support': case 'supportgc':
     
-    reply(`*My developer's group:* http://gg.gg/MikuSupport`)
+    reply(`*My developer's group:* https://chat.whatsapp.com/I1eAuFDBp6a1568QD0CeCk`)
     break
 
 case 'repo': case 'botrepo':
     
-    reply(`*My Source Code:* https://github.com/FantoX001/Miku-MD`)
+    reply(` *JOIM MY GROUP:* https://chat.whatsapp.com/I1eAuFDBp6a1568QD0CeCk`)
     break
 
 case 'nsfwmenu':
@@ -4812,7 +4804,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
       
  const helpmenu = `Konichiwa *${pushname}* Senpai,
 
-I am *Miku Nakano*, a bot developed by *Fantox*.
+I am *Miku Uchiha*, a bot developed by *ash Uchiha*.
 
 🔰 My prefix is:  ${prefix}
 
